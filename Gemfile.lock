@@ -1,0 +1,39 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.3.8)
+    escher (0.3.6)
+      addressable (~> 2.3)
+    escher-keypool (0.0.1)
+    escher-rack_middleware (0.2.0)
+      escher (>= 0.3.3)
+    faraday (0.9.1)
+      multipart-post (>= 1.2, < 3)
+    faraday-cli (0.7.3)
+      faraday
+      pwd
+    faraday_middleware-escher (0.3.3)
+      escher
+      faraday
+    loader (2.2.1)
+    multipart-post (2.0.0)
+    pwd (1.1.0)
+    rack (1.6.4)
+    rack-app (0.3.0)
+      rack
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  escher
+  escher-keypool
+  escher-rack_middleware
+  faraday-cli
+  faraday_middleware-escher
+  loader
+  rack
+  rack-app
+
+BUNDLED WITH
+   1.10.6
